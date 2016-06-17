@@ -190,7 +190,7 @@
     </script>
    <!-- Map Scripts START -->
 	  <link rel="stylesheet" href="<?php echo base_url(); ?>css/base/jquery.ui.all.css">
-	  <script src="http://maps.google.com/maps/api/js?sensor=false">
+	  <script src="https://maps.google.com/maps/api/js?sensor=false">
 	  </script>
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
 	  </script>
