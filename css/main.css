@@ -316,21 +316,21 @@ border: 1px solid #979797;
 /*Non-bootstrap*/
 
 #frontPageImg {
-	    background-image: url("http://res.cloudinary.com/dpxleoyp6/image/upload/e_blur:1279/v1449421451/aperitif_wkdtxi.jpg");
+	    background-image: url("https://res.cloudinary.com/dpxleoyp6/image/upload/e_blur:1279/v1449421451/aperitif_wkdtxi.jpg");
 	    background-repeat: no-repeat;
 	    background-size: cover;
 
 }
 
 #supportImg {
-        background-image: url("http://res.cloudinary.com/dpxleoyp6/image/upload/e_blur:736/v1454248846/citylights2_gsqdkz.jpg");
+        background-image: url("https://res.cloudinary.com/dpxleoyp6/image/upload/e_blur:736/v1454248846/citylights2_gsqdkz.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; 
 }
 
 #worksImg {
-        background-image: url("http://res.cloudinary.com/dpxleoyp6/image/upload/e_blur:497/v1454353727/candy-406940_640_zdn5cp.jpg");
+        background-image: url("https://res.cloudinary.com/dpxleoyp6/image/upload/e_blur:497/v1454353727/candy-406940_640_zdn5cp.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; 
@@ -1050,7 +1050,7 @@ fieldset[disabled] .btn-danger.active {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(http://smaatapps.com/nector/website/css/ajax-loader.gif) center no-repeat;
+	background: url(https://smaatapps.com/nector/website/css/ajax-loader.gif) center no-repeat;
 }
 .social a:hover
 {
@@ -1058,7 +1058,7 @@ fieldset[disabled] .btn-danger.active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.fb {background-image:url(http://smaatapps.com/nector/website/img/fb.png);  width:26px; height:26px;}
+.fb {background-image:url(https://smaatapps.com/nector/website/img/fb.png);  width:26px; height:26px;}
 
 /* client nav css */
 
