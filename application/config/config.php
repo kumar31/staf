@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'https://justfit.herokuapp.com/';
+$config['base_url']	= 'http://staf.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
