@@ -40,7 +40,7 @@ $mail->AltBody    = "To view the message, please use an HTML compatible email vi
 
 $mail->MsgHTML($body);
 
-$address = "kumarappan@smaatapps.com";
+$address = "kumarappan.ssb@gmail.com";
 $mail->AddAddress($address, "John Doe");
 
 $mail->AddAttachment("images/phpmailer.gif");      // attachment
