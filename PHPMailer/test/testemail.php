@@ -27,7 +27,7 @@ try {
 	$mail->From       = "lakshmanan@smaatapps.com";
 	$mail->FromName   = "First Last";
 
-	$to = "kumarappan.ssb@gmail.com,lakshmanan@smaatapps.com";
+	$to = "kumarappan.ssb@gmail.com";
 
 	$mail->AddAddress($to);
 
