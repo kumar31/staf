@@ -22,12 +22,12 @@ try {
 
 	$mail->IsSendmail();  // tell the class to use Sendmail
 
-	$mail->AddReplyTo("kumarappan.ssb@gmail.com","First Last");
+	$mail->AddReplyTo("lakshmanan@smaatapps.com","First Last");
 
-	$mail->From       = "kumarappan.ssb@gmail.com";
+	$mail->From       = "lakshmanan@smaatapps.com";
 	$mail->FromName   = "First Last";
 
-	$to = "kumarappan.ssb@gmail.com";
+	$to = "kumarappan.ssb@gmail.com,lakshmanan@smaatapps.com";
 
 	$mail->AddAddress($to);
 
