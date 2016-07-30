@@ -15,19 +15,19 @@ try {
 
 	$mail->IsSMTP();                           // tell the class to use SMTP
 	$mail->SMTPAuth   = true;                  // enable SMTP authentication
-	$mail->Port       = 25;                    // set the SMTP server port
-	$mail->Host       = "mail.yourdomain.com"; // SMTP server
-	$mail->Username   = "name@domain.com";     // SMTP server username
-	$mail->Password   = "password";            // SMTP server password
+	$mail->Port       = 465;                    // set the SMTP server port
+	$mail->Host       = "smtp.mailgun.org"; // SMTP server
+	$mail->Username   = "smaatapp@auto.outfitstaff.com";     // SMTP server username
+	$mail->Password   = ")2gNYK3Ed9K*3Z9Q4n{mWJp#Eb/rTCRq";            // SMTP server password
 
 	$mail->IsSendmail();  // tell the class to use Sendmail
 
-	$mail->AddReplyTo("name@domain.com","First Last");
+	$mail->AddReplyTo("kumarappan.ssb@gmail.com","First Last");
 
-	$mail->From       = "name@domain.com";
+	$mail->From       = "kumarappan.ssb@gmail.com";
 	$mail->FromName   = "First Last";
 
-	$to = "someone@example...com";
+	$to = "kumarappan.ssb@gmail.com";
 
 	$mail->AddAddress($to);
 
