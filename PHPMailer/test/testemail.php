@@ -41,8 +41,15 @@ try {
 	$mail->IsHTML(true); // send as HTML
 
 	$mail->Send();
+	echo $mail->SMTPDebug = 0; 
+	echo $mail->SMTPDebug = 1;
+	echo $mail->SMTPDebug = 2; 
 	echo 'Message has been sent.';
 } catch (phpmailerException $e) {
+	echo $mail->SMTPDebug = 0; 
+	echo $mail->SMTPDebug = 1;
+	echo $mail->SMTPDebug = 2; 
+	
 	echo $e->errorMessage();
 }
 ?>
