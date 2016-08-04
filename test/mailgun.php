@@ -8,7 +8,7 @@
 //error_reporting(E_ALL);
 error_reporting(E_STRICT);
 date_default_timezone_set('America/Toronto');
-require_once('../class.phpmailer.php');
+require_once('class.phpmailer.php');
 //include("class.smtp.php"); // optional, gets called from within class.phpmailer.php if not already loaded
 $mail             = new PHPMailer();
 $body             = file_get_contents('contents.html');
