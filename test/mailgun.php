@@ -15,17 +15,17 @@ $mail             = new PHPMailer();
   $body             = "hi";
 $body             = eregi_replace("[\]",'',$body);
 $mail->IsSMTP(); // telling the class to use SMTP
-$mail->Host       = "smtp.mailgun.org"; // SMTP server
+$mail->Host       = "smtp.gmail.com"; // SMTP server
 $mail->SMTPDebug  = 2;                     // enables SMTP debug information (for testing)
                                            // 1 = errors and messages
                                            // 2 = messages only
 $mail->SMTPAuth   = true;                  // enable SMTP authentication
 $mail->Host       = "smtp.mailgun.org"; // sets the SMTP server
-$mail->Port       = 25;                    // set the SMTP port for the GMAIL server
-$mail->Username   = "smaatapp@auto.outfitstaff.com"; // SMTP account username
-$mail->Password   = ")2gNYK3Ed9K*3Z9Q4n{mWJp#Eb/rTCRq";        // SMTP account password
-$mail->SetFrom('support@beta.outfitstaff.com', 'First Last');
-$mail->AddReplyTo("support@beta.outfitstaff.com","First Last");
+$mail->Port       = 465;                    // set the SMTP port for the GMAIL server
+$mail->Username   = "kumarappan.ssb@gmail.com"; // SMTP account username
+$mail->Password   = "6godisgreat@";        // SMTP account password
+$mail->SetFrom('kumarappan.ssb@gmail.com', 'First Last');
+$mail->AddReplyTo("kumarappan.ssb@gmail.com","First Last");
 $mail->Subject    = "PHPMailer Test Subject via smtp, basic with authentication";
 $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 $mail->MsgHTML($body);
