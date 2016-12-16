@@ -24,15 +24,15 @@ $mail->Host       = "smtp.mailgun.org"; // sets the SMTP server
 $mail->Port       = 25;                    // set the SMTP port for the GMAIL server
 $mail->Username   = "smaatapp@auto.outfitstaff.com"; // SMTP account username
 $mail->Password   = ")2gNYK3Ed9K*3Z9Q4n{mWJp#Eb/rTCRq";        // SMTP account password
-$mail->SetFrom('lakshmanan@smaatapps.com', 'First Last');
-$mail->AddReplyTo("lakshmanan@smaatapps.com","First Last");
+$mail->SetFrom('support@beta.outfitstaff.com', 'First Last');
+$mail->AddReplyTo("support@beta.outfitstaff.com","First Last");
 $mail->Subject    = "PHPMailer Test Subject via smtp, basic with authentication";
 $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 $mail->MsgHTML($body);
 $address = "kumarappan.ssb@gmail.com";
 $mail->AddAddress($address, "John Doe");
-$mail->AddAttachment("images/phpmailer.gif");      // attachment
-$mail->AddAttachment("images/phpmailer_mini.gif"); // attachment
+//$mail->AddAttachment("images/phpmailer.gif");      // attachment
+//$mail->AddAttachment("images/phpmailer_mini.gif"); // attachment
 if(!$mail->Send()) {
   echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
