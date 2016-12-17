@@ -23,7 +23,7 @@ $mail->SMTPAuth   = true;                  // enable SMTP authentication
 $mail->Host       = "smtp.mailgun.org"; // sets the SMTP server
 $mail->Port       = 465;                    // set the SMTP port for the GMAIL server
 $mail->Username   = "kumarappan.ssb@gmail.com"; // SMTP account username
-$mail->Password   = "6godisgreat@";        // SMTP account password
+$mail->Password   = "";        // SMTP account password
 $mail->SetFrom('kumarappan.ssb@gmail.com', 'First Last');
 $mail->AddReplyTo("kumarappan.ssb@gmail.com","First Last");
 $mail->Subject    = "PHPMailer Test Subject via smtp, basic with authentication";
