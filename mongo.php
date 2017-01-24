@@ -1,7 +1,7 @@
 <?php
    // connect to mongodb
 	
-   echo "Connection to database successfully";
+   
    $uri = "mongodb://smaatapps:smaat123@ds127399.mlab.com:27399/heroku_5tt1944k";
 
 /* 
